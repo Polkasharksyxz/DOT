@@ -1,11 +1,15 @@
 use std::collections::BTreeMap;
 
+type AccountId = String;
+type Balance = u128;
 /// This is the Balances Module.
 /// It is a simple module which keeps track of how much balance each account has in this state
 /// machine.
+#[derive(Debug)]
 pub struct Pallet {
 	// A simple storage mapping from accounts (`String`) to their balances (`u128`).
-	balances: BTreeMap<String, u128>,
+	// balances: BTreeMap<String, u128>,
+	balances: BTreeMap<AccountId, Balance>,
 }
 
 impl Pallet {
@@ -15,22 +19,27 @@ impl Pallet {
 	}
 
 	/// Set the balance of an account `who` to some `amount`.
-	pub fn set_balance(&mut self, who: &String, amount: u128) {
+	// pub fn set_balance(&mut self, who: &String, amount: u128) {
+	pub fn set_balance(&mut self, who: &AccountId, amount: Balance) {
 		/* Insert `amount` into the BTreeMap under `who`. */
 		self.balances.insert(who.clone(), amount);
 	}
 
 	/// Get the balance of an account `who`.
 	/// If the account has no stored balance, we return zero.
-	pub fn balance(&self, who: &String) -> u128 {
+	// pub fn balance(&self, who: &String) -> u128 {
+	pub fn balance(&self, who: &AccountId) -> Balance {
 		/* Return the balance of `who`, returning zero if `None`. */
 		*self.balances.get(who).unwrap_or(&0)
 	}
 	pub fn transfer(
 		&mut self,
-		caller: String,
-		to: String,
-		amount: u128,
+		// caller: String,
+		// to: String,
+		// amount: u128,
+		caller: AccountId,
+		to: AccountId,
+		amount: Balance,
 	) -> Result<(), &'static str> {
 		/* TODO:
 			- Get the balance of account `caller`.

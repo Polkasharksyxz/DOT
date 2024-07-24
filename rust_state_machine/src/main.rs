@@ -3,6 +3,7 @@ mod system;
 
 // This is our main Runtime.
 // It accumulates all of the different pallets we want to use.
+#[derive(Debug)]
 pub struct Runtime {
 	/* TODO: create a field `system` which is of type `system::Pallet`. */
 	/* TODO: create a field `balances` which is of type `balances::Pallet`. */
@@ -53,4 +54,6 @@ fn main() {
 	/* TODO: Execute another balance transfer, this time from `alice` to `charlie` for 20. */
 	runtime.system.inc_nonce(&alice);
 	let _res = runtime.balances.transfer(alice, charlie, 20).map_err(|e| eprintln!("{}", e));
+    /* TODO: Print the final runtime state after all transactions. */
+    println!("{:#?}", runtime);
 }

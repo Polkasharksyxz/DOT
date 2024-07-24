@@ -2,6 +2,11 @@
 use std::collections::BTreeMap;
 /// This is the System Pallet.
 /// It handles low level state needed for your blockchain.
+type AccountId = String;
+type BlockNumber = u32;
+type Nonce = u32;
+
+#[derive(Debug)]
 pub struct Pallet {
 	/// The current block number.
 	/* TODO: Create a field `block_number` that stores a `u32`. */
@@ -35,7 +40,8 @@ impl Pallet {
 
 	// Increment the nonce of an account. This helps us keep track of how many transactions each
 	// account has made.
-	pub fn inc_nonce(&mut self, who: &String) {
+	// pub fn inc_nonce(&mut self, who: &String) {
+    pub fn inc_nonce(&mut self, who: &AccountId) {
 		/* TODO: Get the current nonce of `who`, and increment it by one. */
 		// unimplemented!()
 		let nonce: u32 = *self.nonce.get(who).unwrap_or(&0);
