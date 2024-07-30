@@ -1,0 +1,14 @@
+D:\DOT\DOT\rust_state_machine\target\debug\deps\libss58_registry-e38b981f3b8a8069.rmeta: C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\address_format.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\error.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\registry.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\token.rs D:\DOT\DOT\rust_state_machine\target\debug\build\ss58-registry-23a419561d25d7f9\out/registry_gen.rs
+
+D:\DOT\DOT\rust_state_machine\target\debug\deps\libss58_registry-e38b981f3b8a8069.rlib: C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\address_format.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\error.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\registry.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\token.rs D:\DOT\DOT\rust_state_machine\target\debug\build\ss58-registry-23a419561d25d7f9\out/registry_gen.rs
+
+D:\DOT\DOT\rust_state_machine\target\debug\deps\ss58_registry-e38b981f3b8a8069.d: C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\lib.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\address_format.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\error.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\registry.rs C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\token.rs D:\DOT\DOT\rust_state_machine\target\debug\build\ss58-registry-23a419561d25d7f9\out/registry_gen.rs
+
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\lib.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\address_format.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\error.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\registry.rs:
+C:\Users\User\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ss58-registry-1.47.0\src\token.rs:
+D:\DOT\DOT\rust_state_machine\target\debug\build\ss58-registry-23a419561d25d7f9\out/registry_gen.rs:
+
+# env-dep:OUT_DIR=D:\\DOT\\DOT\\rust_state_machine\\target\\debug\\build\\ss58-registry-23a419561d25d7f9\\out

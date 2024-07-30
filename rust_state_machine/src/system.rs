@@ -10,10 +10,12 @@ type Nonce = u32;
 pub struct Pallet {
 	/// The current block number.
 	/* TODO: Create a field `block_number` that stores a `u32`. */
-	block_number: u32,
+	// block_number: u32,
+	block_number: BlockNumber,
 	/// A map from an account to their nonce.
 	/* TODO: Create a field `nonce` that is a `BTreeMap` from `String` to `u32`. */
-	nonce: BTreeMap<String, u32>,
+	// nonce: BTreeMap<String, u32>,
+	nonce: BTreeMap<AccountId, Nonce>,
 }
 // The nonce represents "a number used once".
 impl Pallet {
@@ -24,7 +26,7 @@ impl Pallet {
 	}
 
 	/// Get the current block number.
-	pub fn block_number(&self) -> u32 {
+	pub fn block_number(&self) -> BlockNumber {
 		/* TODO: Return the current block number. */
 		// unimplemented!()
 		self.block_number
